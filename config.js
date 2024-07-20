@@ -2,9 +2,9 @@ module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
 	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	token: process.env.token || "MTI2MjgxNjEzNDE2MDMxODYxNQ.GeVRaS.xCyytQsJIDxm34TgwLkxm6nZcHkiEIyIhm2OL4", //- Bot's Token
+	clientId: process.env.clientId || "1262816134160318615", //- ID of the bot
+	clientSecret: process.env.clientSecret || "tcFC8zimY8b2eVzvpUXiK6fv5HHS2dAq", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
